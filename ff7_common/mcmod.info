@@ -1,0 +1,18 @@
+[
+{
+  "modid": "ff7",
+  "name": "Final Fantasy 7",
+  "description": "Adds various elements of Final Fantasy 7 into Minecraft.",
+  "version": "Alpha v0.1",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Tagueantor"],
+  "credits": "By Tagueantor, based on Final Fantasy 7 by Square.",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
