@@ -3,8 +3,11 @@ package tagueantor.ff7;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import tagueantor.ff7.lib.Reference;
+import tagueantor.ff7.proxy.CommonProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.Mod.Instance;
+import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
@@ -13,8 +16,17 @@ import cpw.mods.fml.common.registry.LanguageRegistry;
 //Declaring Mod ID, Name and version using Reference file.
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 
+
 public class FinalFantasy7 {
 
+	//Instance code. Useful quite often, but forunknown reasons.
+	@Instance(Reference.MOD_ID)
+	public static FinalFantasy7 instance;
+	
+	//Declaring Proxies (Optimising code for multiplayer reasons.
+	@SidedProxy(clientSide = Reference.ClientProxy, serverSide = Reference.CommonProxy)
+	public static CommonProxy proxy;
+	
 	//Pre-Initialisation Event
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
@@ -29,7 +41,7 @@ public class FinalFantasy7 {
 	
 	//Post-Initialisation Event
 	@EventHandler
-	public void postInit(FMLPostInitializationEvent event) {
+	public void modsLoaded(FMLPostInitializationEvent event) {
 		
 	};
 	
