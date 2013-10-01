@@ -8,6 +8,7 @@ import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.LanguageRegistry;
 
 //Declaring Mod ID, Name and version using Reference file.
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
@@ -39,11 +40,16 @@ public class FinalFantasy7 {
 	
 public FinalFantasy7() {
 	//Identifying ID's and Creative Tab location for Crafting Materials.
-	MythrilIngot(1980).setUnlocalizedName("MythrilIngot").setCreativeTab(CreativeTabs.tabMaterials);
-	MythrilPole(1981).setUnlocalizedName("MythrilPole").setCreativeTab(CreativeTabs.tabMaterials);
-	MythrilClawBlade(1982).setUnlocalizedName("MythrilClawBlade").setCreativeTab(CreativeTabs.tabMaterials);
+	MythrilIngot = new tagueantor.ff7.item.MythrilIngot(1980).setUnlocalizedName("MythrilIngot").setCreativeTab(CreativeTabs.tabMaterials);
+	MythrilPole = new tagueantor.ff7.item.MythrilPole(1981).setUnlocalizedName("MythrilPole").setCreativeTab(CreativeTabs.tabMaterials);
+	MythrilClawBlade = new tagueantor.ff7.item.MythrilClawBlade(1982).setUnlocalizedName("MythrilClawBlade").setCreativeTab(CreativeTabs.tabMaterials);
 	
 	
+	//Language Registry of Crafting Materials.
+	LanguageRegistry.addName(MythrilIngot, "Mythril Ingot");
+	LanguageRegistry.addName(MythrilPole, "Mythril Pole");
+	LanguageRegistry.addName(MythrilClawBlade, "Mythriil Claw Blade");
+
 	
 	
 }
