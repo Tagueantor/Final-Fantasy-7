@@ -1,0 +1,10 @@
+Final Fantasy 7 Weapons - Aeris.
+
+NOTE: Some localisations rename Aeris to Aerith. For simplicity's sake, all file tied to this this person will be declared as Aeris.
+
+Development Notes:
+	> Aeris tends to wield staves/poles in the original game.
+	> An umbrella is included as her "special" weapon.
+		> Will be recoded to utilise weapon damage, yet right clicking results in changing the weather to clear.
+	> Not many weapons as she was killed off by Sephiroth within the first 3rd of the game.
+	> For sake of ease, Aeris weapons are scaled to the same scale as the other weapons, meaning her ultimate weapon is on par to the others.

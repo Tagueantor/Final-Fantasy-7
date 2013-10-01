@@ -1,0 +1,11 @@
+Final Fantasy 7 Weapons - Barret.
+
+Development Notes:
+	> Lost right hand during attack by Shinra before the original game actually starts.
+	> Arm is replaced by various "Gun-Arms."
+	> Arm is customisable, resulting in both melee and range orientated weapons.
+	> Bow.java file will need to be copied to a new .java file and customised to accept bullets.
+		> Bullets must deal damage equal to the weapon attack value. Tier 3 melee does 20 damage, T4 = 25 damage. Bullets must auto scale pending with weapon actually used.
+
+Texture Design Notes:
+	> Minor customisation from original acceptable. add some personal flare to it.

@@ -1,0 +1,25 @@
+Final Fantasy 7 Mod Developer's Guide:
+
+This file will be used to explain the various stages taken place.
+
+As there are a couple of developers for this mod project, I hope that ALL developers will contribute to this document.
+
+Each segment will be signed by the developer working on that area.
+	Example:
+		> Tagueantor creates base packages.
+			After writing about that stage, a SIGNED: ______ line appears. The Developer's Minecraft name will replace the "_____" section.
+	It allows due credit to the respective developer, while allowing all developers to know what has been done since their last commit.
+	
+	
+Explaination document creation.
+	SIGNED: Tagueantor.
+	
+Base Packages created and committed to GitHub.
+	SIGNED: Tagueantor.
+
+Initial Developer Note documents for various package segments.
+	SIGNED: Tagueantor.
+	
+Reference File (small package), used to store constant values referred to by the main mod class file.
+	SIGNED: Tagueantor.
+

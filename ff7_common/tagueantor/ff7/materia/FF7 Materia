@@ -1,3 +1,49 @@
 Final Fantasy 7 Materia.
 
 Development notes on the Materia and magic system being implemented.
+
+Due to coding problems (ie. I don't have a damn clue about Java), I have to be a bit more creative with how to make it work.
+The majority of materia can be crafted, but the cost of crafting the higher tiered materia will be a lot more significant.
+Only a few can be obtained (only) by killing certain mobs that will be included. These are very powerful, so don't expect to get them easily.
+
+Materia being implemented/already implemented:
+
+    > Fire
+        > Level 1 - Fire Damage (15hp), 2 seconds of Burning (imagine dropping in lava, the ongoing damage after getting out.)
+        > Level 2 - Fire Damage (30hp), 5 seconds of Burning.
+        > Level 3 - Fire Damage (45hp), 10 seconds of Burning.
+        > Level 4 (Final) - Fire Damage (60hp), 20 seconds of Burning.
+    > Ice
+        > Level 1 - Ice Damage (15hp), 5 seconds of slowness (set to immobilised enemies completely).
+        > Level 2 - Ice Damage (30hp), 10 seconds of slowness.
+        > Level 3 - Ice Damage (45hp), 15 seconds of slowness.
+        > Level 4 (Final) - Ice Damage (60hp), 30 seconds of slowness.
+    > Thunder
+        > Level 1 - Thunder called from the heavens, does normal damage.
+        > Level 2 (Final) - Releases several bolts of Thunder from the heavens, still doing normal damage, just more of them.
+    > Aero
+        > Level 1 - Acts like a bow, has decent knock-back effect, weak damage.
+        > Level 2 - Similar to Level 1, but improved Damage
+        > Level 3 (Final) - Both damage and knock-back effect greatly increased.
+    > Flare
+        > Never upgrades. Deals High Damage (about 70hp) to a single target, dropping creepers.
+    > Utima
+        > Never Upgrades. Similar to Flare, but more of the Creepers.
+    > Restore
+        > Restore player, removing all negative effects, similarto bucket of milk, but more uses.
+    > Poison
+        > Poisons target for 20 seconds, same poison damage as if  player was poisoned by a cave spider.
+    > Heal
+        > Gives 10 seconds of Regen to Player.
+    > Time
+        > Grants Speed boost for a minute.
+    > Meteor
+        > Spawns a massive sphere of TNT with very short fuses, causing severe damage to players, entities, and can cause problems for weaker Graphics cards. USE WITH CAUTION!
+    > Holy
+        > Grants powerful buffs, with several minute duration. Removes ALL Negative effects. Buffs granted are not yet determined.
+    > Barrier
+        > Grants level 5 Resistance boost for 2 minutes. Good against tough mobs, or to improve chances of escaping alive. 
+
+These are currently planned. More MAY be added, after I have grasped a better understanding of Java.
+
+Please note that this is in Alpha, the materia may end up being altered for balancing reasons (or to improve the code, making it solid and without redundant lines of code). Thanks!

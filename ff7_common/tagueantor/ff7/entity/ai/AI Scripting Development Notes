@@ -1,0 +1,5 @@
+Final Fantasy 7 - AI Scripting.
+
+Development Notes:
+	> This package is for ALL new AI scripting required for several of the new creatures being added.
+	> Some AI files will be based directly the Minecraft AI (with tweaks), others from scratch, pending on the complexity of the AI script required.
