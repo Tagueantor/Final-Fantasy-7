@@ -1,0 +1,8 @@
+PROXY WARNINGS:
+
+Due to changes since 1.3, Minecraft merged server and client code into 1 setup.
+
+COMMON PROXY - SERVER SIDE!
+	> NO textures, sounds, Key Bindings, etc. should be activated.
+CLIENT PROXY - CLIENT ONLY!
+	> OVERRIDE's Common Proxy. Clients have all parts not activated by the Common Proxy activated.

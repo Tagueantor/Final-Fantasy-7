@@ -50,6 +50,8 @@ public class FinalFantasy7 {
 	public static Item MythrilPole;
 	public static Item MythrilClawBlade;
 	
+	
+	
 public FinalFantasy7() {
 	//Identifying ID's and Creative Tab location for Crafting Materials.
 	MythrilIngot = new tagueantor.ff7.item.MythrilIngot(1980).setUnlocalizedName("MythrilIngot").setCreativeTab(CreativeTabs.tabMaterials);
