@@ -19,7 +19,7 @@ import cpw.mods.fml.common.registry.LanguageRegistry;
 
 public class FinalFantasy7 {
 
-	//Instance code. Useful quite often, but forunknown reasons.
+	//Instance code. Useful quite often, but for unknown reasons.
 	@Instance(Reference.MOD_ID)
 	public static FinalFantasy7 instance;
 	
@@ -49,8 +49,6 @@ public class FinalFantasy7 {
 	public static Item MythrilIngot;
 	public static Item MythrilPole;
 	public static Item MythrilClawBlade;
-	
-	
 	
 public FinalFantasy7() {
 	//Identifying ID's and Creative Tab location for Crafting Materials.
