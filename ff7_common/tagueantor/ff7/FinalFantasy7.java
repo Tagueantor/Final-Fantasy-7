@@ -16,7 +16,6 @@ import cpw.mods.fml.common.registry.LanguageRegistry;
 //Declaring Mod ID, Name and version using Reference file.
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 
-
 public class FinalFantasy7 {
 
 	//Instance code. Useful quite often, but for unknown reasons.
@@ -52,9 +51,9 @@ public class FinalFantasy7 {
 	
 public FinalFantasy7() {
 	//Identifying ID's and Creative Tab location for Crafting Materials.
-	MythrilIngot = new tagueantor.ff7.item.MythrilIngot(1980).setUnlocalizedName("MythrilIngot").setCreativeTab(CreativeTabs.tabMaterials);
-	MythrilPole = new tagueantor.ff7.item.MythrilPole(1981).setUnlocalizedName("MythrilPole").setCreativeTab(CreativeTabs.tabMaterials);
-	MythrilClawBlade = new tagueantor.ff7.item.MythrilClawBlade(1982).setUnlocalizedName("MythrilClawBlade").setCreativeTab(CreativeTabs.tabMaterials);
+	MythrilIngot = new tagueantor.ff7.item.MythrilIngot(1980).setUnlocalizedName("mythrilIngot").setCreativeTab(CreativeTabs.tabMaterials);
+	MythrilPole = new tagueantor.ff7.item.MythrilPole(1981).setUnlocalizedName("mythrilPole").setCreativeTab(CreativeTabs.tabMaterials);
+	MythrilClawBlade = new tagueantor.ff7.item.MythrilClawBlade(1982).setUnlocalizedName("mythrilClawBlade").setCreativeTab(CreativeTabs.tabMaterials);
 	
 	
 	//Language Registry of Crafting Materials.

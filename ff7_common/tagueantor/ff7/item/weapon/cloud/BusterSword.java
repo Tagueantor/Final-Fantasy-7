@@ -9,4 +9,6 @@ public class BusterSword extends Item {
 		super(par1);
 	}
 
+	
+
 }

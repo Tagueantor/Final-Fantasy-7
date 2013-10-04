@@ -35,7 +35,8 @@ public class FF7Weapons {
 public FF7Weapons() {
 	
 	//Declaring ID, Material Type, etc. of Cloud's Weapons
-	BusterSword = new tagueantor.ff7.item.weapon.cloud.BusterSword(2000, FF7WeaponTier1).setUnlocalizedName("BusterSword").setCreativeTab(CreativeTabs.tabCombat);
+	BusterSword = new tagueantor.ff7.item.weapon.cloud.BusterSword(2000, FF7WeaponTier1).setUnlocalizedName("busterSword").setCreativeTab(CreativeTabs.tabCombat);
+
 
 
 

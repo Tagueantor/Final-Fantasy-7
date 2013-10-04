@@ -1,3 +1,17 @@
 Final Fantasy 7 Items.
 
 Text file containing development notes about the items being added.
+
+Mythril Items:
+	> Ingot - Used to craft the basic weapons, Mythril Pole and Mythril Claw Blades. Smelted from Mythril Ore blocks.
+	> Pole - Replacement for sticks in crafting.
+	> Claw Blade - Used for certain crafting.
+
+Elemental Crystals:
+	> Fire
+	> Water
+	> Earth
+	> Air
+		All crystals used for crafting Materia purposes. Dropped by mining relevant Elemental Ores.
+
+No particular information needed.
