@@ -1,0 +1,6 @@
+Weapon Notes: Yuffie.
+
+Development Notes.
+	> Shurikens used.
+	> Throws a clone of itself, without actually consuming the item.
+		> Represents Yuffie's insane quantity  of shurikens. 
